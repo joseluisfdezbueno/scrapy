@@ -16,4 +16,3 @@ class SpyderOslItem(scrapy.Item):
     contenido = scrapy.Field()
     categorias = scrapy.Field()
     etiquetas = scrapy.Field()
-    link = scrapy.Field()
