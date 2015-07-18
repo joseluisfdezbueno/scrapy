@@ -11,4 +11,9 @@ import scrapy
 class SpyderOslItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    titulo = scrapy.Field()
+    autor = scrapy.Field()
+    contenido = scrapy.Field()
+    categorias = scrapy.Field()
+    etiquetas = scrapy.Field()
+    link = scrapy.Field()
